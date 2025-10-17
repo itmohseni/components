@@ -1,0 +1,86 @@
+body {
+    font-family: "iran-sans", sans-serif !important;
+    background: #252525;
+    margin: 0 !important;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    direction: rtl;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    animation: morph 5s forwards infinite;
+    border-radius: 60% 60% 60% 60% / 60% 60% 60% 60%;
+}
+
+/* 
+@keyframes morph {
+    0% {
+        border-radius: 60% 60% 60% 60% / 20% 60% 60% 60%;
+    }
+
+    25% {
+        border-radius: 60% 60% 60% 60% / 60% 20% 60% 60%;
+    }
+
+    50% {
+        border-radius: 60% 60% 60% 60% / 60% 60% 20% 60%;
+    }
+
+    75% {
+        border-radius: 60% 60% 60% 60% / 60% 60% 60% 20%;
+    }
+
+    100% {
+        border-radius: 60% 60% 60% 60% / 20% 60% 60% 60%;
+
+    }
+
+} */
+
+/* 
+@keyframes morph {
+    0% {
+        border-radius: 60% 60% 60% 60% / 20% 80% 60% 60%;
+    }
+
+    25% {
+        border-radius: 60% 60% 60% 60% / 80% 20% 60% 60%;
+    }
+
+    50% {
+        border-radius: 60% 60% 60% 60% / 60% 60% 20% 80%;
+    }
+
+    75% {
+        border-radius: 60% 60% 60% 60% / 60% 60% 80% 20%;
+    }
+
+    100% {
+        border-radius: 60% 60% 60% 60% / 20% 80% 60% 60%;
+
+    }
+
+} */
+
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}
