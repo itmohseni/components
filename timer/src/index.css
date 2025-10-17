@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+
+* {
+    font-family: "Vazirmatn", sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.contaier {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1e2939;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chooseTime {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.timeItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doted {
+    font-size: 24px;
+    color: #fff;
+}
+
+.nextTime {
+    color: #aaa;
+    opacity: 70;
+    font-size: 18px;
+    margin: 0;
+}
+
+.currentNumber {
+    font-size: 24px;
+    margin-block: 6px;
+    color: #155dfb;
+}
+
+.arrowBtn {
+    color: #bdb9b9;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.startBtn {
+    border: none;
+    border-radius: 6px;
+    background-color: #155dfb;
+    color: #fff;
+    padding-inline: 4rem;
+    padding-block: .3rem;
+    margin-top: 20px;
+}

@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+
+body {
+    direction: rtl;
+}
+
+.tasklist {
+    direction: ltr;
+}
+
+.task {
+    direction: rtl;
+}
+
+.tasklist::-webkit-scrollbar-track {
+    @apply bg-gray-700
+}
+
+.tasklist::-webkit-scrollbar {
+    @apply w-1.5
+}
+
+.tasklist::-webkit-scrollbar-thumb {
+    @apply rounded-md bg-gray-500
+}
+
+.tasklist::-webkit-scrollbar-thumb:hover {
+    @apply bg-gray-600
+}
